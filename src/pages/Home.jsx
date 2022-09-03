@@ -1,10 +1,11 @@
 import React from "react";
 import UserResaults from "../components/users/UserResaults";
+import UserSearch from "../components/users/UserSearch";
 
 function Home() {
   return (
     <>
-      {/* Search Component */}
+      <UserSearch />
       <UserResaults />
     </>
   );
