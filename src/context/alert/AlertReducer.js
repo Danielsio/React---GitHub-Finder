@@ -1,5 +1,3 @@
-import React from "react";
-
 function AlertReducer(state, action) {
   switch (action.type) {
     case "SET_ALERT":
